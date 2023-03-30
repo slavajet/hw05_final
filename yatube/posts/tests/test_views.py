@@ -8,9 +8,8 @@ from django.core.cache import cache
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.test import Client, TestCase, override_settings
 from django.urls import reverse
-
 from posts.forms import PostForm
-from posts.models import Comment, Group, Post, Follow
+from posts.models import Comment, Follow, Group, Post
 
 User = get_user_model()
 NUMBER_OF_POSTS = 13
