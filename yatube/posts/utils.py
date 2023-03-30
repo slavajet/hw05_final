@@ -1,4 +1,5 @@
 from django.core.paginator import Paginator
+
 from posts import constants
 
 
